@@ -7,8 +7,6 @@ date_max_decrease =''
 greatest_increase = 0
 greatest_decrease = 0
 
-
-
 with open ('budget_data.csv','r',newline='')as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',') 
     next(csv_reader)
